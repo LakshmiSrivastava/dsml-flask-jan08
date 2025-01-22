@@ -22,7 +22,7 @@ def home():
             <title>Congratulation on successful CI/CD completion</title>
         </head>
         <body>
-            <h1>Make sure you replicate this atleast 2 times on your end</h1>
+            <h1>Congratulation on successful CI/CD completion, Good going guys!!</h1>
             <p>MLOPS Engineer on the rise!!.</p>
         </body>
     </html>
