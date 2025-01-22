@@ -19,10 +19,10 @@ def home():
     return '''
     <html>
         <head>
-            <title>Loan Prediction Model</title>
+            <title>Congratulation on successful CI/CD completion</title>
         </head>
         <body>
-            <h1>Welcome to Loan Prediction Model</h1>
+            <h1>Make sure you replicate this atleast 2 times on your end</h1>
             <p>MLOPS Engineer on the rise!!.</p>
         </body>
     </html>
