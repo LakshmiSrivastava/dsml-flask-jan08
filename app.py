@@ -14,7 +14,19 @@ with open('new_classifier.pkl', 'rb') as f:
 def ping():
     return {'message': 'Pinging Model Application!!'}
 
-
+@pancakes.route('/', methods=['GET'])
+def home():
+    return '''
+    <html>
+        <head>
+            <title>Loan Prediction Model</title>
+        </head>
+        <body>
+            <h1>Welcome to Loan Prediction Model</h1>
+            <p>MLOPS Engineer on the rise!!.</p>
+        </body>
+    </html>
+    '''
 
 @pancakes.route('/predict', methods=['POST', 'GET'])
 def test_predict():
