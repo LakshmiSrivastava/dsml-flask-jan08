@@ -1,23 +1,8 @@
-from app import sum_something, sub_something, mul_something
+#testing code always start with the word TEST
+from app import some_something
 
+def test_sum_something(): #def function always start with the word TEST
+    a,b=1,2
 
-
-def test_sum_something():
-    a, b = 1, 2
-
-    assert sum_something(a, b) == 3
-
-
-def test_sub_something():
-    a, b = 1, 2
-
-    assert sub_something(a, b) == -1
-    
-
-
-
-def test_mul_something():
-    a, b = 1, 2
-
-    assert mul_something(a, b) == 2
+    assert sum_something(a,b)==3 #assert asks wether. the code is TRUE or FALSE
 
