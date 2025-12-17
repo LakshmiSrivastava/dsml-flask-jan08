@@ -162,8 +162,12 @@ def get_template():
 def sum_something(a,b):
     return a+b
 
+def sub_something(a,b):
+    return a-b
+
 #pytest- in pytest un kt is a function that you can test independantly
 
 
+import pytest
 
 
